@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+.logo a {
+  font-size: 2.1rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.logo a:hover {
+  color: black;
+  text-decoration: none;
+}
+header a:hover {
+  color: gray;
+}
+.nav-scroller {
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.card {
+  background: none;
+}
+.card-img-right img {
+  color: white;
+  outline: none;
+  border: none;
+}
+.blog-main h1{
+font-family: 'Times New Roman', Times, serif;
+}
+.blog-post h1,h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog-main *{
+  width: 100%;
+}
+.blog-post *{
+  width: 100%;
+}
+.about h1{
+  font-family: 'Times New Roman', Times, serif;
+}
